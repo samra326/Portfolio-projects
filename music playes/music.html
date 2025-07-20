@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/83c89e80e2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/music.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<div class="container">
+    <div class="sub-container">
+        <nav>
+            <div class="circle">
+                <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <div class="circle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+        <img src="./img/player.png" alt="song">
+        <h1>Tu itna zaruri kese hwa</h1>
+        <p>Vishal - Mishra</p>
+
+        <audio id="song">
+            <source src="./audio/Kaise Hua - Kabir Singh 128 Kbps.mp3" type="audio/mpeg">
+        </audio>
+
+        <input type="range" value="0" id="progress">
+
+        <div class="control-pannel">
+           <div> <i class="fa-solid fa-backward"></i> </div>
+            <div onclick="playPause()"><i class="fa-solid fa-play" id="play"></i> </div>
+           <div> <i class="fa-solid fa-forward"></i> </div>
+        </div>
+
+    </div>
+</div>
+
+
+    <script src="./js/music.js"></script>
+</body>
+</html>

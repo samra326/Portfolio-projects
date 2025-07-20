@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.background{
+    width: 100%;
+    min-height: 100vh;
+    background:burlywood;
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    margin: 5px 5px 15px 6px;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.butn{
+    width: 700px;
+    height: 100%;
+    margin-top: 100px;
+   background: wheat;
+   padding: 20px;
+   border-radius: 20px;
+  
+}
+
+.style-btn{
+    display: flex;
+    flex: 1;
+    flex-direction: column; 
+}
+.style-btn button{
+    display: block;
+    margin: 10px;
+    text-align: left;
+    padding: 5px;
+    border-radius: 5px;
+}
+.style-btn button:hover:not([disabled]){
+    background: greenyellow;
+    cursor: pointer;
+    transition: all 1s ;
+}
+.style-btn button:disabled{
+    cursor: no-drop;
+}
+.next{
+    display: flex;
+    flex: 1;
+    margin:20px auto 10px;
+    padding: 5px 20px;
+    background: lawngreen;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.next-btn button:hover{
+    background: olivedrab;
+    cursor: pointer;
+}
+
+.correct{
+    background: greenyellow;
+}
+.incorrect{
+    background: orangered;
+}

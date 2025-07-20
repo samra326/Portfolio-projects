@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap');
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Crimson Text', serif;
+    background: rgb(244, 127, 244);
+}
+
+.box{
+    margin: 200px auto;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: pink;
+    width: 500px;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.3);
+}
+.box h1{
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 700;
+
+}
+.box blockquote{
+    font-size: 2rem;
+    min-height: 20px;
+}
+.box blockquote::after, .box blockquote::before{
+    content: ' " ';
+}
+.box span{
+    display: block;
+    margin-top: 40px;
+    position: relative;
+    font-size: 1.6rem;
+    text-align: right;
+}
+
+.box div{
+    width: 100%;
+    margin-top:30px ;
+    display: flex;
+    justify-content: center;
+}
+.box div button{
+    background: wheat;
+    color: black;
+    border-radius: 25px;
+    border: 1px solid black;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.box button img{
+    width: 20px;
+    height: 20px;
+}
+.box button:nth-child(2){
+    background: white;
+}

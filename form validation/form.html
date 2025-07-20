@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="./css/form.css">
+    <script src="https://kit.fontawesome.com/83c89e80e2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="container">
+
+
+        <form id="form" action="samrashabbir8061@gmail.com">
+            <div class="title">Get Started</div>
+            <div>
+                <label for="first-name">First Name</label><br>
+                <i class="fa-solid fa-user fa-2x icon" ></i>
+                <input type="text" id="fname" name="fname" placeholder="first-name" >
+                <i class="fa-solid fa-circle-exclamation rd-clr fa-2x failiure-icon"></i>
+                <div class="error"></div>
+            </div>
+            <div>
+                <label for="last-name">Last Name</label><br>
+                <i class="fa-solid fa-user fa-2x icon"></i>
+                <input type="text" id="lname" name="lname" placeholder="last-name" >
+                <i class="fa-solid fa-circle-exclamation rd-clr fa-2x failiure-icon"></i>
+                <div class="error"></div>
+                
+            </div>
+            <div>
+                <label for="password">Password</label><br>
+                <i class="fa-solid fa-lock fa-2x icon"></i>
+                <input type="password" id="Password" name="password" placeholder="paswword">
+                <i class="fa-solid fa-circle-exclamation rd-clr fa-2x failiure-icon"></i>
+                <div class="error"></div>
+                
+            </div>
+
+            <div>
+                <label for="Email">Email</label><br>
+                <i class="fa-solid fa-envelope fa-2x icon"></i>
+                <input type="email" id="email" name="email" placeholder="Email">
+                <i class="fa-solid fa-circle-exclamation rd-clr fa-2x failiure-icon"></i>
+                <div class="error"></div>
+                
+
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </form>
+
+    </div>
+        
+           
+
+
+
+    <script src="./js/form.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.background-container{
+    width: 100%;
+    min-height: 100vh;
+    background:rgb(44, 41, 41);
+    color: wheat;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    background:linear-gradient(rgba(82, 32, 139, 0.5),rgba(169, 166, 235, 0.5));
+    width: 700px;
+    padding: 50px 20px 50px 50px;
+    border-radius: 30px;
+    margin-top: 50px;
+    height: 100%;
+ 
+    
+}
+.search-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+input{
+    padding: 10px;
+    height: 50px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+}
+.image{
+    text-align: center;
+    padding-top: 40px;
+    display: none;
+}
+.image img{
+    width:150px;
+    height: 150px;
+} 
+.temp{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.city{
+    font-size: 4rem;
+    font-weight: 600;
+}
+.col1 img{
+    height: 50px;
+    width: 50px;
+}
+
+.col2 img{
+    height: 50px;
+    width: 50px;
+}
+.humidity{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.wind{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.humi{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.win{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.error{
+    text-align: center;
+    margin-top:10px;
+    font-size: 1.5rem;
+    display: none;
+}
